@@ -22,9 +22,20 @@ In CAPITAL LETTERS, each of the entities will be written, in _italics_ each one 
 
 - Finally, each branch _obtains_ **FINANCIAL RESULTS** in a certain period of time (Month of a Year), which we will identify by an **ID**, and from which we will store data about Income, Operating Expenses, and Profits.
 
-
 ## EER model Design
+The design of the Enhanced Entity-Relationship Model was done using []()
+
+### From EER to a Relational Model
+
+### Database Implementation in Oracle
+Using Oracle SQL Developer
+
+### Data Insertion
+
+### Data Querying in SQL
+
+## Acknowledments
+This project is a joint work between María del Carmen Sánchez Barragán, Miguel Roldán Rodríguez, Vitor Oliveira de Souza and me.
+Presented as a part of the 'Big Data and Artificial Intelligence' Masters Degree by the University of Málaga.
 
 
-###
-###
