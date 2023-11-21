@@ -1,10 +1,11 @@
 ## Restaurant Database: Design and Implementation
 
+This repository contains the design of a Restaurant Database from scratch (both EER model and Relational Model) and its implementation using [Oracle SQL Developer](https://www.oracle.com/database/sqldeveloper/). Also, some data is inserted to check the integrity constraints and some SQL queries are presented to analyse the data.
 
 ### Company Requirements and Constraints
 Here, I explicitly describe the company's requirements that were given before the design of the database.
 
-In CAPITAL LETTERS, each of the entities will be written, in _italics_ each one of the relationships between the entities, and in bold the key attribute of the entity (or the one that will be the partial key of a weak entity).
+In CAPITAL LETTERS, each of the entities will be written, in _italics_ each one of the relationships between the entities, and in **bold** the possible key attributes of the entity (or the one that will be the partial key of a weak entity).
 
 - The company owns several chains of **RESTAURANT**s. Each restaurant has an **ID**, a **Name**, a Style, a Vision, and some Values. Each of these _has_ a series of **BRANCH**es, where we store the opening date, **ID**, **NIF**, Name, and Address.
 
@@ -20,6 +21,9 @@ In CAPITAL LETTERS, each of the entities will be written, in _italics_ each one 
 - There is a system in which **ANONYMOUS CUSTOMER**s, with a **Username** (non-identifying) given by the branch itself, can _rate_ the branches through a score and a comment. Since this system is anonymous, if this person returns to make a review at the same or another branch, a new Username will be assigned.
 
 - Finally, each branch _obtains_ **FINANCIAL RESULTS** in a certain period of time (Month of a Year), which we will identify by an **ID**, and from which we will store data about Income, Operating Expenses, and Profits.
+
+
+## EER model Design
 
 
 ###
