@@ -33,11 +33,13 @@ The translation from the EER to a Relational Model was done following the book '
 ![RestauranteConCardinalidad-relational drawio](https://github.com/sararuizruiz/restaurant-design-implementation/assets/75987848/f161d235-100d-4f27-8008-c645b56bc2cc)
 
 ### Database Implementation in Oracle
-Using Oracle SQL Developer, we implemented the database using the queries in file 
+Using Oracle SQL Developer, we implemented the database using the queries in file [Create_Tables.sql](https://github.com/sararuizruiz/restaurant-design-implementation/blob/main/Create_Tables.sql). Here you can find all the CREATE TABLE queries for the implementation, with all its primary keys and constraints specified.
 
 ### Data Insertion
+In the file [Create_Data.sql](https://github.com/sararuizruiz/restaurant-design-implementation/blob/main/Create_Data.sql), we have a few insertions of data we came up with, just to play around with our model.
 
 ### Data Querying in SQL
+In the file [Queries_Restaurant.sql](https://github.com/sararuizruiz/restaurant-design-implementation/blob/main/Queries_Restaurant.sql), we created 10 SQL queries implemented in Oracle to test our model design, and to get some insights of the data we created.
 
 ## Acknowledments
 This project is a joint work between María del Carmen Sánchez Barragán, Miguel Roldán Rodríguez, Vitor Oliveira de Souza and me.
