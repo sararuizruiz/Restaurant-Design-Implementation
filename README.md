@@ -23,12 +23,17 @@ In CAPITAL LETTERS, each of the entities will be written, in _italics_ each one 
 - Finally, each branch _obtains_ **FINANCIAL RESULTS** in a certain period of time (Month of a Year), which we will identify by an **ID**, and from which we will store data about Income, Operating Expenses, and Profits.
 
 ## EER model Design
-The design of the Enhanced Entity-Relationship Model was done using []()
+The design of the Enhanced Entity-Relationship Model was done using [Draw.io](https://app.diagrams.net) and can be seen on this image:
+
+![EER_GrupoH_FINAL drawio](https://github.com/sararuizruiz/restaurant-design-implementation/assets/75987848/84d66365-2095-4a0a-918d-7fc778073bf6)
 
 ### From EER to a Relational Model
+The translation from the EER to a Relational Model was done following the book 'Fundamentals of Database Systems' by Ramez Elmasri and Shamkant Navathe, Chapter 9 (Relational Database Design by ER- and EER-to-Relational Mapping). This is our result:
+
+![RestauranteConCardinalidad-relational drawio](https://github.com/sararuizruiz/restaurant-design-implementation/assets/75987848/f161d235-100d-4f27-8008-c645b56bc2cc)
 
 ### Database Implementation in Oracle
-Using Oracle SQL Developer
+Using Oracle SQL Developer, we implemented the database using the queries in file 
 
 ### Data Insertion
 
